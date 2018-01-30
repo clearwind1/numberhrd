@@ -71,7 +71,7 @@ class GameScene extends GameUtil.BassPanel {
         }
         if (GameConfig.GAMETYPEID == 1) {
             this.gamescene.getChildAt(this.gamescene.numChildren - 1).$setAlpha(0);
-            for (var i = 0; i < 100; i++) {
+            for (var i = 0; i < 1000; i++) {
                 var e = RandomUtils.limitInteger(KEYCODE.LEFT, KEYCODE.DOWN);
                 switch (e) {
                     case KEYCODE.DOWN:

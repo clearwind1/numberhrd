@@ -41,7 +41,7 @@ class GameScene extends GameUtil.BassPanel {
         this.pic = [];
         this.picarr = [];
         this.testtex = [];
-        this.time = 60 + (100 - 1) * 30;
+        this.time = 30 + level * 30;
         this.timet.setText('Time:' + this.time + 's');
         this.levle = level;
         this.levlet.setText('Level:' + this.levle);
@@ -152,7 +152,7 @@ class GameScene extends GameUtil.BassPanel {
         this.pic = [];
         this.picarr = [];
         this.testtex = [];
-        this.time = 60 + (100 - 1) * 30;
+        this.time = 30 + 1 * 30;
         this.timet = new GameUtil.MyTextField(this.mStageW / 2 + 50, 40, 30, 0, 0.5);
         this.timet.setText('Time:' + this.time + 's');
         this.timet.textColor = 0x37b4c7;

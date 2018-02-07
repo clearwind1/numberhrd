@@ -74,7 +74,7 @@ class Main extends egret.DisplayObjectContainer {
             // }
         }
         else {
-            this.stage.scaleMode = egret.StageScaleMode.FIXED_WIDE;
+            this.stage.scaleMode = egret.StageScaleMode.SHOW_ALL;
             this.stage.setContentSize(GameConfig.DesignWidth, GameConfig.DesignHeight);
             GameUtil.GameScene.init(this.stage);
             GameUtil.GameScene.runscene(new GameUtil.LoadingPanel(this.createGameScene, this, 0, 0));

@@ -51,7 +51,7 @@ class StartGameScene extends GameUtil.BassPanel {
     /**显示背景界面 */
     private curid: number;
     private showbg() {
-
+        
         // this.initGrid();
         // return;
 
